@@ -16,7 +16,7 @@ int main(){
   int N, num_tracks;
   int temp;
   
-  
+  ios_base::sync_with_stdio(0); cin.tie(0);
   while(cin >> N >> num_tracks){
     //Read in tracks
     vector<int> tracks;
